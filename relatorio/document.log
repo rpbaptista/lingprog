@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.14)  19 OCT 2016 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.14)  19 OCT 2016 17:59
 entering extended mode
 **./document.tex
 (document.tex
@@ -990,25 +990,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-[2
+Package epstopdf Info: Source file: <figs/programa.eps>
+(epstopdf)                    date: 2016-10-19 17:55:39
+(epstopdf)                    size: 103903 bytes
+(epstopdf)             Output file: <figs/programa-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-19 17:55:46
+(epstopdf)                    size: 13096 bytes
+(epstopdf)             Command: <epstopdf --outfile=figs/programa-eps-converted
+-to.pdf figs/programa.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+<figs/programa-eps-converted-to.pdf, id=12, 479.7925pt x 130.4875pt>
+File: figs/programa-eps-converted-to.pdf Graphic file (type pdf)
 
-] (document.aux) ) 
+<use figs/programa-eps-converted-to.pdf>
+Package pdftex.def Info: figs/programa-eps-converted-to.pdf used on input line 
+121.
+(pdftex.def)             Requested size: 398.3386pt x 108.33644pt.
+ [2
+
+ <./figs/programa-eps-converted-to.pdf>] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 7552 strings out of 493634
- 102364 string characters out of 3141317
- 185683 words of memory out of 3000000
- 10722 multiletter control sequences out of 15000+200000
+ 7559 strings out of 493634
+ 102545 string characters out of 3141317
+ 186691 words of memory out of 3000000
+ 10728 multiletter control sequences out of 15000+200000
  37919 words of font info for 39 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,14n,47p,766b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
-nc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/lm/lmri12.pfb>
-Output written on document.pdf (2 pages, 150626 bytes).
+{C:/Program Files (x86
+)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr
+17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
+Output written on document.pdf (2 pages, 164497 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
