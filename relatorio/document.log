@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.14)  19 OCT 2016 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.14)  19 OCT 2016 15:41
 entering extended mode
 **./document.tex
 (document.tex
@@ -1005,18 +1005,18 @@ va-color-eps-converted-to.pdf>] (document.toc)
 ]
 (document.aux) ) 
 Here is how much of TeX's memory you used:
- 7547 strings out of 493634
- 102287 string characters out of 3141317
+ 7554 strings out of 493634
+ 102383 string characters out of 3141317
  185683 words of memory out of 3000000
- 10715 multiletter control sequences out of 15000+200000
+ 10722 multiletter control sequences out of 15000+200000
  36655 words of font info for 39 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,14n,47p,331b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,14n,47p,369b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc
 }<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb>
-Output written on document.pdf (7 pages, 135422 bytes).
+Output written on document.pdf (7 pages, 140370 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
