@@ -44,6 +44,7 @@ sub mostraMenu {
     print ("Digite uma opcao valida.\n");
     print ("O que queres, humano? Opcao: ");
     $opcao = <STDIN>;
+    chomp $opcao;
   }
   return $opcao;
 }
