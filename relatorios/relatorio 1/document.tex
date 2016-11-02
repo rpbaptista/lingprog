@@ -104,16 +104,17 @@
 %\end{acronym}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 
-\cleardoublepage
+\pagebreak
+\vspace*{-2.0cm}
 \section{Introdução}
-
+\vspace*{-0.3cm}
 O desenvolvimento do trabalho para a disciplina de Linguagens de Programação requer um planejamento inicial, referente ao "Trabalho 1". Portanto, o objetivo deste relatório é descrever a primeira parte do trabalho, onde apresentamos a definição do problema, de como iremos resolvê-lo e do funcionamento interno do programa.
 
-
+\vspace*{-0.4cm}
 \section{Implementação do Programa}
-
+\vspace*{-0.3cm}
 A ideia do programa a ser desenvolvido é que o mesmo sirva como uma ferramenta que auxilie um professor em suas atividades como docente. O \textit{workflow} da aplicação será da seguinte forma: primeiro verifica-se se há um banco de dados (arquivo .txt preexistente). Se houver, o usuário terá acesso a um menu, em que poderá escolher opções de, por exemplo, a inserção de um novo curso, calculo de média e desvio padrão do curso, estatísticas de aprovados na disciplina. Caso contrário, o usuário terá opção de adicionar um novo curso. Nesta opção serão inseridos a quantidade de avaliações na disciplina, assim como a quantidade de alunos. Logo após, será feito cadastro das notas das avaliações. ~\\
-
+\vspace*{-0.05cm}
 O programa gerenciador em C++ servirá de interface entre o usuário e a aplicação. Será oferecido ao usuário um menu, com as opções que o mesmo terá acesso, que serão as seguintes: inserção de um novo curso, novo aluno, estatísticas por matéria e por aluno. Opções de excluir um curso, ou um aluno. 
 
 \begin{figure}[!h]
@@ -122,12 +123,28 @@ O programa gerenciador em C++ servirá de interface entre o usuário e a aplica�
 \caption{Fluxograma do programa.}
 \label{fluxo}
 \end{figure}
-
+\vspace*{-0.2cm}
 Na Figura~\ref{fluxo}, 1 representa as \textit{strings} em formatos pré determinados e 2, são as informações que serão exibidas na tela para o usuário. Outra forma de saída é a atualização do Bando de Dados.
 %\section{Caso de Uso}
 %\section{Conclusão}
 %\section{Referências}
-
-
-
+\\
+\vspace*{-0.1cm}
+As funções do Perl serão as seguintes:
+\begin{itemize}
+	
+	\item Busca pelo critério de avaliação, contendo os pesos de cada uma e a média para aprovação;
+	\vspace*{-0.3cm}
+	\item Busca por matéria/aluno específico;
+	\vspace*{-0.3cm}
+	\item Busca pelas notas, com precisão de uma ou duas casas decimais;
+	\vspace*{-0.3cm}
+	\item Cálculo de média, desvio padrão e outras estatísticas;
+	\vspace*{-0.3cm}
+	\item Classificação dos alunos em aprovados e reprovados;
+	\vspace*{-0.3cm}
+	\item Avaliação de grau de dificuldade de uma matéria e de um professor, baseado nas estatísticas da turma e na assiduidade dos alunos.
+\end{itemize}
+\vspace*{-0.1cm}
+As tarefas acima utilizarão de diferentes métricas de análises de expressão regulares, bem como análise estatísticas dos dados. 
 \end{document}

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.6">
-<info created="D:20161019160246" modified="D:20161019175532"/>
+<info created="D:20161019160246" modified="D:20161031212431"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -301,7 +301,7 @@ h
 372 736 l
 376 736 l
 </path>
-<text matrix="1 0 0 1 196 0" transformations="translations" pos="196 784" stroke="black" type="label" width="31.799" height="9.963" depth="0" valign="baseline" size="Large">Pearl</text>
+<text matrix="1 0 0 1 196 0" transformations="translations" pos="196 784" stroke="black" type="label" width="24.775" height="9.963" depth="0" valign="baseline" size="Large">Perl</text>
 <text matrix="0.930082 0 0 1 228.363 3.49781" transformations="translations" pos="216 752" stroke="black" type="label" width="58.42" height="6.918" depth="0" halign="center" valign="center">$\bullet$~Estat\&apos;isticas</text>
 <text matrix="0.56531 0 0 1 277.994 -4" transformations="translations" pos="216 752" stroke="black" type="label" width="38.163" height="6.808" depth="0" valign="center">$\bullet$~Buscas</text>
 <text matrix="0.802877 0 0 1 226.664 -11.9275" transformations="translations" pos="216 752" stroke="black" type="label" width="47.738" height="6.813" depth="1.69" valign="center">$\bullet$~Remo\c{c}\~{a}o</text>
