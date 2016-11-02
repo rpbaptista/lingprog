@@ -120,7 +120,22 @@ sub sairPrograma {
 }
 ###############################################################################
 
+###############################################################################
 
+sub estatisticaDeUmaProva {
+ #aqui tem que como ler depois que achar materia pela primeira vez e antes
+ #que achar materia pela segunda vez
+ #ai no meio tem que ler de uma coluna so depois que ler os nomes
+ #primeiro implementar para uma prova especifica e depois ampliar pra provar
+ #que a pessoa escolher
+}
+###############################################################################
+
+###############################################################################
+sub estatisticaDeUmaMateria {
+  #ler estatisticaDeUmaProva
+}
+###############################################################################
 
 
 
