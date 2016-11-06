@@ -14,14 +14,27 @@
 # Professor: Miguel Elias Mitre Campista
 ###############################################################################
 
+
+###############################################################################
+#### USES ####
 #apresenta warnings durante a executcao casa haja pontenciais problemas
 use warnings;
 #para a excecucao caso haja potenciais problemas
 use strict;
+#permite o uso do switch
 use Switch;
+
+
+###############################################################################
+#### GLOBAL #####
 
 our $nomeArquivo = 'bd.txt';
 ###############################################################################
+
+###############################################################################
+#### FUNCOES ####
+###############################################################################
+
 sub mostraMenu {
 
   system("clear");
@@ -93,8 +106,10 @@ system("clear");
 
     foreach my $line (@all_lines) {
     (my $materia) = $line =~ m/MATERIA:([^s]+)/g;
+    #(my $professor) = $line =~ m/PROFESSOR:([^s]+)/g; #nao sei pq n funciona <<
     if($materia) {
       print  ("   $qtdMaterias. $materia \n");
+      #print ("    Professor: $professor\n");
       $qtdMaterias = $qtdMaterias + 1;
       }
     }
@@ -137,7 +152,7 @@ sub estatisticaDeUmaMateria {
 }
 ###############################################################################
 
-
+#verificar se o novo banco de dados esta no formato certo
 
 
 ###############################################################################
